@@ -422,7 +422,6 @@
     }
 
   , click: function (e) {
-      e.stopPropagation();
       e.preventDefault();
       this.select();
       this.$element.focus();
